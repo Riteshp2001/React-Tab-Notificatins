@@ -1,12 +1,27 @@
 {
-  "name": "ritesh-pandit",
+  "name": "tab-notifications",
   "version": "1.0.0",
   "private": false,
+  "description": "A React hook for managing browser tab notifications",
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Riteshp2001/React-Tab-Notificatins"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "notifications",
+    "browser",
+    "tabs"
+  ],
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "rollup -c",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@rollup/plugin-commonjs": "latest",
@@ -17,6 +32,9 @@
     "rollup-plugin-typescript2": "latest",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
   },
   "devDependencies": {
     "@types/node": "^22",
