@@ -2,6 +2,19 @@
 
 A lightweight, versatile React hook that updates the browser tab’s title and favicon—emoji or image—when users navigate away or via manual triggers. Keep your app top‑of‑mind and boost engagement with minimal dependencies and full TypeScript support.
 
+<div align="center">
+  <h2>
+      🎯 Try it Live! ✨
+  </h2>
+  <p align="center">
+    <strong>Ready to supercharge your web app?</strong><br/>
+    See how tab notifications can transform your user experience with our interactive demo.<br/>
+    <em>Click, explore, and watch the magic happen! ✨🚀</em>
+  </p>
+  <a href="https://react-tab-notification.vercel.app" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/LIVE_DEMO-Try_Now!-blue?style=for-the-badge&logo=react" alt="Live Demo" />
+  </a>
+</div>
 ---
 
 ## 🚀 Table of Contents
@@ -82,7 +95,7 @@ function MyComponent() {
 import { useTabNotification } from "react-tab-notification";
 
 function ChatApp() {
-  const { isActive } = useTabNotification({
+  useTabNotification({
     title: "New messages! 📬",
     favicons: [
       { emoji: "🔔", backgroundColor: "#0078d4" },
@@ -91,7 +104,7 @@ function ChatApp() {
     faviconInterval: 500,
   });
 
-  return <h1>Chat App</h1>;
+  return null;
 }
 ```
 
