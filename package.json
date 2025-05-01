@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": false,
   "description": "A React hook for managing browser tab notifications",
-  "author": "Your Name",
+  "author": "Ritesh Pandit",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -16,6 +16,7 @@
     "browser",
     "tabs"
   ],
+
   "scripts": {
     "dev": "next dev",
     "build": "rollup -c",
