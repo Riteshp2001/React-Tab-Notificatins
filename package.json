@@ -4,6 +4,7 @@
   "private": false,
   "description": "A React hook for managing browser tab notifications",
   "author": "Ritesh Pandit",
+  "type": "module",
   "license": "MIT",
   "repository": {
     "type": "git",
