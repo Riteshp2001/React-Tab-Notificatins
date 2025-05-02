@@ -2,10 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "module": "esnext",
-    "lib": [
-      "dom",
-      "esnext"
-    ],
+    "lib": ["dom", "esnext"],
     "declaration": true,
     "sourceMap": true,
     "moduleResolution": "node",
@@ -36,17 +33,6 @@
       }
     ]
   },
-  "include": [
-    "app/TabNotificationDemo.tsx",
-    "hooks/useTabNotification/index.ts",
-    "hooks/useTabNotification/useTabNotification.ts",
-    "src",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist",
-    "**/*.test.ts",
-    "**/*.test.tsx"
-  ]
+  "include": ["app/**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.test.tsx"]
 }

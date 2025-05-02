@@ -4,12 +4,7 @@
  */
 
 export {
-  useTabNotification,
+  useTabNotification as default,
   type UseTabNotificationOptions,
   type EmojiConfig,
 } from "./useTabNotification";
-
-export { TabNotificationDemo } from "../../app/TabNotificationDemo";
-
-// Default export
-export { useTabNotification as default } from "./useTabNotification";
