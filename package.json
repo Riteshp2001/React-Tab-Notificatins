@@ -1,42 +1,43 @@
 {
-  "name": "tab-notifications",
-  "version": "1.0.1",
-  "private": false,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Riteshp2001/React-Tab-Notificatins"
-  },
-  "author": "Ritesh Pandit",
-  "license": "MIT",
-  "description": "A React component for displaying notifications in tabs",
-  "homepage": "https://github.com/Riteshp2001/React-Tab-Notificatins",
-  "scripts": {
-    "dev": "next dev",
-    "build": "rollup -c",
-    "prepare": "npm run build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "dependencies": {
-    "@rollup/plugin-commonjs": "^25.0.7",
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "clsx": "^2.1.1",
-    "next": "14.1.0",
-    "react": "^18.2.0",
-    "rollup": "^4.9.6",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-typescript2": "^0.36.0",
-    "tailwind-merge": "^2.5.5",
-    "tailwindcss-animate": "^1.0.7"
-  },
-  "devDependencies": {
-    "@types/node": "^20.11.5",
-    "@types/react": "^18.2.48",
-    "@types/react-dom": "^18.2.18",
-    "postcss": "^8.4.33",
-    "tailwindcss": "^3.4.17",
-    "typescript": "^5.3.3"
-  }
+	"name": "tab-notifications",
+	"version": "1.0.1",
+	"private": false,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Riteshp2001/React-Tab-Notificatins"
+	},
+	"author": "Ritesh Pandit",
+	"license": "MIT",
+	"description": "A React component for displaying notifications in tabs",
+	"homepage": "https://github.com/Riteshp2001/React-Tab-Notificatins",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"build:lib": "rollup -c",
+		"prepare": "npm run build:lib",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"main": "dist/index.js",
+	"module": "dist/index.esm.js",
+	"dependencies": {
+		"@rollup/plugin-commonjs": "^25.0.7",
+		"@rollup/plugin-node-resolve": "^15.2.3",
+		"clsx": "^2.1.1",
+		"next": "14.1.0",
+		"react": "^18.2.0",
+		"rollup": "^4.9.6",
+		"rollup-plugin-peer-deps-external": "^2.2.4",
+		"rollup-plugin-typescript2": "^0.36.0",
+		"tailwind-merge": "^2.5.5",
+		"tailwindcss-animate": "^1.0.7"
+	},
+	"devDependencies": {
+		"@types/node": "^20.11.5",
+		"@types/react": "^18.2.48",
+		"@types/react-dom": "^18.2.18",
+		"postcss": "^8.4.33",
+		"tailwindcss": "^3.4.17",
+		"typescript": "^5.3.3"
+	}
 }
