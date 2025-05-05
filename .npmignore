@@ -1,5 +1,4 @@
 # Source files
-src/
 rollup.config.js
 tsconfig.json
 .eslintrc

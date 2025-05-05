@@ -21,9 +21,9 @@
     "allowSyntheticDefaultImports": true,
     "jsx": "preserve",
     "outDir": "dist",
-    "rootDir": "src",
+    "rootDir": ".",
     "allowJs": true,
-    "noEmit": true,
+    "noEmit": false,
     "incremental": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -33,6 +33,6 @@
       }
     ]
   },
-  "include": ["app/**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["hooks/**/*.ts", "hooks/**/*.tsx", "lib/**/*.ts"],
   "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.test.tsx"]
 }

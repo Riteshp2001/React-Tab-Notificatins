@@ -9,7 +9,7 @@
   "author": "Ritesh Pandit",
   "license": "MIT",
   "description": "A React component for displaying notifications in tabs",
-  "homepage": "",
+  "homepage": "https://github.com/Riteshp2001/React-Tab-Notificatins",
   "scripts": {
     "dev": "next dev",
     "build": "rollup -c",
@@ -17,9 +17,12 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "dependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
+    "clsx": "^2.1.1",
     "next": "14.1.0",
     "react": "^18.2.0",
     "rollup": "^4.9.6",
